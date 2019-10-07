@@ -1,3 +1,3 @@
 # sermaxxx.github.io
 ## Мои сайты: 
-## [BELAZ](sermaxxx.github.io/belaz/)
+## [BELAZ](https://sermaxxx.github.io/belaz/index.html)
