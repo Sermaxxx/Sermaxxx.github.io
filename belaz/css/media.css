@@ -203,9 +203,9 @@
     h2 {
         font-size: 28px;
     }
-    
-
-
+    .contact input:nth-last-of-type(1) {
+        margin: 0;
+    }
     .work_with_us img {
         margin-top: 50px;
     }
