@@ -244,4 +244,7 @@ footer p {
     .block_txt h1 {
         justify-content: flex-start;
     }
+    .icons img {
+        margin-bottom: 10px
+    }
 }
