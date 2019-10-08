@@ -220,9 +220,28 @@ footer p {
         margin-bottom: 20px;
     }
     .work_time p {
-        display:none;
+        display: none;
     }
     .p_number h3 {
-        display:none;
+        display: none;
+    }
+    .block_ico {
+        margin-left: 0;
+        margin-right: 30px;
+        margin-top: 21px;
+        margin-bottom: 8px;
+    }
+    .block_txt div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .block_txt h3 {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .block_txt h1 {
+        justify-content: flex-start;
     }
 }
