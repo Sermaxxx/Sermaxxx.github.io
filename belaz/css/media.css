@@ -216,7 +216,7 @@ footer p {
         margin-top: 40px;
     }
     .contact input:nth-last-of-type(1) {
-        margin: 0;
+        margin-left: 0;
         margin-bottom: 20px;
     }
     .work_time p {
