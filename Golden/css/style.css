@@ -60,6 +60,23 @@ a:hover {
     padding: 120px 0;
 }
 
+#top {
+    display: none;
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#top img {
+    padding: 15px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    background: rgb(254, 209, 54);;
+}
+
 /* =================================== */
 header {
     background: url(../img/background_header.jpg) 50% 50% / cover no-repeat;

@@ -9,3 +9,17 @@ link.on('click', function (e) {
       scrollTop: y
    }, 1000)
 })
+
+$(window).scroll(function () {
+   console.log($(this).scrollTop());
+   if ($(this).scrollTop() < 500) {
+       $("#top").fadeOut();        
+   } else {
+       $("#top").fadeIn();
+   }
+})
+$("#top").click(function () {
+   $("html").animate({
+       scrollTop: 0
+   }, 500);
+})
