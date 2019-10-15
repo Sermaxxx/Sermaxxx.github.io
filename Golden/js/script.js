@@ -20,6 +20,6 @@ $(window).scroll(function () {
 })
 $("#top").click(function () {
    $("html").animate({
-       scrollTop: 0
+       scrollTop: 0 
    }, 500);
 })
