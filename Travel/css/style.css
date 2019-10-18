@@ -111,6 +111,11 @@ input {
     margin-top: 15px;
 }
 
+input:focus {
+    outline: 1px solid white;
+    box-shadow: 0 0 10px rgb(37, 28, 28);
+}
+
 .request p {
     text-align: center;
     text-transform: uppercase;
@@ -146,6 +151,10 @@ label a:hover {
     background: white;
     color: #d03958;
     transition: 100ms;
+}
+
+.request button:focus {
+    outline: 1px solid black;
 }
 
 /* our_services our_services our_services our_services our_services our_services our_services */
