@@ -5,6 +5,7 @@ $(function(){
     });
 });
 
+// Accordion
 
 let acordions = document.querySelectorAll('.do__accordion');
 let texts = document.querySelectorAll('.do__text');
@@ -22,5 +23,26 @@ acordions.forEach(acordion => {
         text.classList.add('do__text--active');
         acordion.classList.add('do__accordion--active');
     });
+});
+
+// Nav Menu
+
+let burger = document.querySelector('.header__burger');
+let nav = document.querySelector('.header__nav');
+let close = document.querySelector('.header__close');
+let menuItems = document.querySelectorAll('.header__nav-item');
+
+
+burger.addEventListener('click', ()=> {
+    nav.classList.add('header__nav--active');
 })
 
+close.addEventListener('click', ()=> {
+    nav.classList.remove('header__nav--active');
+})
+
+menuItems.forEach(item => {
+    item.addEventListener('click', ()=> {
+        nav.classList.remove('header__nav--active');
+    })
+});
