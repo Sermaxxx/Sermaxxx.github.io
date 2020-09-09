@@ -8,4 +8,4 @@
 ## [Adv](https://sermaxxx.github.io/adv/index.html)
 ## [Mogo](https://sermaxxx.github.io/mogo/index.html)
 ## [Mogo2](https://sermaxxx.github.io/mogo2/index.html)
-## [Mogo2](https://sermaxxx.github.io/shopno/index.html)
+## [Shopno](https://sermaxxx.github.io/shopno/index.html)
